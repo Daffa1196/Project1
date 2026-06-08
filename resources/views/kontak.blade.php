@@ -1,16 +1,20 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Kontak</title>
-</head>
-<body>
-    <nav>
-            <h1>Halaman Kontak</h1>
-            <a href="/profil">Ke Profil</a>
-    </nav>
+@extends('layouts.app')
 
-    <h1>Halaman Kontak</h1>
-    <p>Email: 241230014@unmuhpnk.ac.id</p>
-    <p>No HP: 081545463356</p>
-</body>
-</html>
+@section('title', 'Kontak')
+
+@section('content')
+
+<div class="bg-white p-6 rounded-lg shadow">
+
+<h1>INI KONTAK PUNYA DAFFA</h1>
+    <h2 class="text-2xl font-bold mb-4 text-green-600">Kontak</h2>
+
+    <div class="space-y-3">
+        <p><strong>Email:</strong> abcd@donasiku.com</p>
+        <p><strong>Telp:</strong> 0899-8876-654</p>
+        <p><strong>Alamat:</strong> Pontianak, Kalimantan Barat</p>
+    </div>
+
+</div>
+
+@endsection

@@ -2,11 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
-class Profilcontroller extends Controller
+class ProfilController extends Controller
 {
-    public function index(){
+    public function profile()
+    {
         return view('profil');
     }
 }

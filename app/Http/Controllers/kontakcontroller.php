@@ -2,11 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
-class Kontakcontroller extends Controller
+class KontakController extends Controller
 {
-        public function index() {
+    public function kontak()
+    {
         return view('kontak');
     }
 }
